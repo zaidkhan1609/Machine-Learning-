@@ -1,34 +1,36 @@
-# Project Title: Cyberattack Detection Using Machine Learning
+# Cyberattack Detection Using Machine Learning
+Project Overview
+The goal of this project is to develop a machine learning-based system for detecting cyberattacks by classifying network traffic data into various categories. Multiple machine learning models, including Support Vector Machine (SVM), Random Forest, Decision Tree, Naive Bayes, and XGBoost, are used to build a robust system capable of identifying anomalies and potential attacks based on packet-level features.
 
-Project Overview: The aim of this project is to develop a machine learning-based system for detecting cyberattacks by classifying network traffic data into various categories. It leverages multiple machine learning models, including Support Vector Machine (SVM), Random Forest, Decision Tree, Naive Bayes, and XGBoost, to build a robust system capable of identifying anomalies and potential attacks based on packet-level features.
+Key Features
+Data Preprocessing:
 
-*Key Features:*
+Utilizes real-world network traffic data, cleanses it by handling missing values, and selects relevant features.
+Splits the data into training and testing sets to train the models effectively.
+Model Training:
 
-Data Preprocessing: The project uses real-world network traffic data, cleans it by handling missing values, and selects relevant features. The data is split into training and testing sets to train the models effectively.
-
-Model Training: Several machine learning algorithms are employed to classify the data, including:
-
+Implements multiple machine learning algorithms to classify the data:
 Support Vector Machine (SVM) with a linear kernel.
-Random Forest Classifier to capture complex relationships in the data.
-Decision Tree Classifier for easy interpretation of decisions.
+Random Forest Classifier to capture complex relationships.
+Decision Tree Classifier for easy decision interpretation.
 Naive Bayes Classifier for fast probabilistic classification.
 XGBoost for high performance with large datasets.
-Model Evaluation: The project evaluates the models' performance using accuracy, confusion matrix, and classification reports. The models are tested on a separate dataset (30% of the original data) to assess generalization.
+Model Evaluation:
 
-Model Saving: After training, the models are saved in joblib format, allowing for easy deployment and future use.
+Evaluates model performance using accuracy, confusion matrix, and classification report.
+Models are tested on a separate dataset (30% of the original data) to assess generalization.
+Model Saving:
 
-Objectives:
-
-To detect various types of cyberattacks (e.g., DDoS, port scanning, etc.) by analyzing network traffic data.
-To compare the performance of multiple classifiers and determine the best approach for detecting cyberattacks.
-To provide a visual representation of the model performance through metrics such as accuracy and classification report.
-Technologies Used:
-
+Saves trained models in joblib format for easy deployment and future use.
+Objectives
+Detect various types of cyberattacks (e.g., DDoS, port scanning) by analyzing network traffic data.
+Compare the performance of multiple classifiers to determine the best approach for cyberattack detection.
+Provide a visual representation of model performance using metrics such as accuracy and classification report.
+Technologies Used
 Machine Learning Libraries: Scikit-learn, XGBoost.
 Data Processing: Pandas for data manipulation and preprocessing.
 Visualization: Matplotlib for displaying results and confusion matrices.
-Model Saving: Joblib for saving and loading machine learning models.
-GUI: Tkinter for building a user interface where the models and results can be interacted with.
-End Result:
-
-The project provides an easy-to-use graphical interface that allows users to train different machine learning models for cyberattack detection. The system outputs classification results along with a performance summary, including the accuracy of each model.
+Model Saving: Joblib for saving and loading models.
+GUI: Tkinter for building a user interface to interact with models and results.
+End Result
+The project provides a user-friendly graphical interface that allows users to train and evaluate different machine learning models for cyberattack detection. The system outputs classification results along with performance summaries, including model accuracy and evaluation metrics.
