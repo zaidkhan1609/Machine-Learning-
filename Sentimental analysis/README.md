@@ -1,8 +1,6 @@
-Sentiment Analysis using CNN & Word2Vec
+**Sentiment Analysis using CNN & Word2Vec**
 Open In Colab
 Python
-TensorFlow
-License
 
 A deep learning model for sentiment analysis using Convolutional Neural Networks (CNN) and pre-trained Word2Vec embeddings. This project demonstrates text classification on a labeled dataset, achieving robust performance in sentiment prediction.
 
