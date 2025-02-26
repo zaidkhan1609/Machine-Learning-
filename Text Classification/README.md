@@ -7,11 +7,7 @@
 
 ⚙️ Installation
 Ensure you have the required dependencies installed:
-
-bash
-Copy
-Edit
-pip install pandas numpy sklearn textblob gensim nltk
+📌!pip install pandas numpy sklearn textblob gensim nltk
 🔄 Workflow
 ✅ Data Preprocessing: Tokenization, stopword removal, TF-IDF, and Word2Vec embeddings.
 ✅ Model Training: Logistic Regression for classification.
@@ -20,9 +16,6 @@ pip install pandas numpy sklearn textblob gensim nltk
 🚀 Usage
 Run the Jupyter Notebook to train and evaluate the model:
 
-python
-Copy
-Edit
 # Load dataset
 data = pd.read_csv("bbc-text.csv")
 
